@@ -1,0 +1,12 @@
+.counter {
+    border: 1px solid blue;
+    padding: 30px;
+    width: 300px;
+   margin: 30px auto;
+   font-weight: bold;
+}
+
+.value {
+    margin-left: 10px;
+    color: blue;
+}
