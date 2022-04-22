@@ -42,7 +42,7 @@ class Counter extends Component {
             <div className='counter'>
                 Counter:
                 <Display displayValue={this.state.counterValue} />
-                <ButtonsPanel buttonMethod={this.changeValue} />
+                <ButtonsPanel buttonMethod={this.changeValue} stepValue={this.state.stepValue} />
                 <Step changeStep={this.changeStep}/>
             </div>
         );
